@@ -1,0 +1,133 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body {
+	display: none;
+}
+
+div.howlsophie{
+	position: absolute;
+	top: 20%;
+	left: 10%;
+}
+
+#contenedor {
+	position: absolute;
+	right:23%;
+	top: 10%;
+}
+
+div.turnip {
+	animation: movimiento 2.5s linear infinite;
+}
+
+div.turnip img{
+	display: block;
+	right: 50%;
+}
+
+@keyframes movimiento{
+	0%{
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(30px);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+
+section {
+	height: 650px;
+}
+
+section h2{
+	font-size: 50px;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+
+div.mensaje {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	left: 15%;
+	top: 10%;
+}
+
+div.mensaje1 {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	left: 60%;
+	top: 50%;
+}
+
+#sec1 {
+	background: url(cielo.gif);
+	background-size: cover;
+}
+
+#sec2 {
+	background: url("pieza3.png");
+	background-size: cover;
+}
+
+#sec3 {
+	background: url(gif.gif);
+	background-size: cover;
+}
+
+a.flecha1 {
+	position: absolute;
+	left: 50%;
+	top: 80%;
+	font-size: 80px;
+	text-decoration: none;
+	color: black;
+}
+
+a.flecha2 {
+	position: absolute;
+	left: 50%;
+	top: 185%;
+	font-size: 80px;
+	text-decoration: none;
+	color: white;
+}
+
+a.flecha3 {
+	position: absolute;
+	left: 90%;
+	top: 285%;
+	font-size: 80px;
+	text-decoration: none;
+	color: white;
+}
+
+
+div.mensaje2 {
+	width: 300px;
+	height: 300px;
+	color: white;
+	position: absolute;
+	left: 5%;
+	top: 115%;
+}
+
+div.mensaje3 {
+	width:500px;
+	height: 300px;
+	color: white;
+	position: absolute;
+	top: 220%;
+	left: 5%;
+}

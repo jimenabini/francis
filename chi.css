@@ -1,0 +1,104 @@
+html {
+	background: url("howls moving castle.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition-property: background;
+	transition-duration: 10s;
+	transition-timing-function: ease;
+}
+
+html:hover {
+	background: url("hoesmovingcastles.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+h1 {
+	font-family: "Edwardian Script ITC";
+	font-size: 90px;
+	text-align: center;
+	margin: 2px;
+	opacity: 0.5;
+	transition-property: color;
+	transition-duration: 10s;
+	transition-timing-function: ease;
+}
+
+h2 {
+	font-family: French Script MT;
+	text-align: center;
+	margin: 2px;
+	transition-property: color;
+	transition-duration: 10s;
+	transition-timing-function: ease;
+}
+
+
+div.castillo{
+	position: absolute;
+	right: 80%;
+	top: 17%;
+	transition-property: right;
+	transition-timing-function: ease-in-out;
+	transition-duration: 15s;
+	padding: 50px;
+}
+
+div.castillo:hover {
+	right: 50%;
+}
+
+div.redireccion {
+	background:url(cartel3.png);
+	background-repeat: no-repeat;
+	height: 600px;
+}
+
+footer {
+	position: absolute;
+	top: 50%;
+	left: 37%;
+}
+
+a {
+	text-decoration: none;
+	font-size: 50px;
+	color: black;
+	transition-timing-function: linear;
+	font-family: times new romans;
+}
+
+a:hover {
+	color: white;
+	transition-duration: 1s;
+	font-style: bold;
+	transition-property: color font-style;
+}
+
+div.nabo {
+	position: absolute;
+	left: 80%;
+	top: 38%;
+}
+
+div.nabo:hover{
+animation: movimiento 1s linear infinite;
+}
+
+div.nabo img{
+	display: block;
+	right: 50%;
+}
+
+@keyframes movimiento{
+	0%{
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(20px);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
